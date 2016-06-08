@@ -6,14 +6,16 @@ As many calls as you may have in parallel, the loader will stick to the screen a
 
 * How to use:
 
-1. Include interceptor in your Angular app
+1. Include interceptor in your Angular app:
+  var yourApp = angular.module("yourApp", [ "angularHttpLoading" ]); 
+
 2. Define a template anywhere in the project (it needs to have access to the $rootScope):
-<div ng-show="httpCallsInProgress">
+<div ng-show="angularHttpLoading">
   Your loader template!
 </div>
 
 
 * Other options:
 In case you do not want to show the loader you can  use the option (defaultPreloader: false):
-$http({ method: "GET",  url : "some-data", defaultPreloader : false })
+$http({ method: "GET",  url : "items", defaultPreloader : false })
 
