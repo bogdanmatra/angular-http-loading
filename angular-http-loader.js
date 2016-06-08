@@ -12,7 +12,7 @@
  
             var setPreloader = function (active) {
                 if (requestsInProgress === 0) {
-                    $rootScope.httpCallInProgress = active;
+                    $rootScope.angularHttpLoading = active;
                 }
             };
  
