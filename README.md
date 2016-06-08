@@ -17,5 +17,6 @@ As many calls as you may have in parallel, the loader will stick to the screen a
 
 * Other options:
 In case you do not want to show the loader you can  use the option (defaultPreloader: false):
+
 $http({ method: "GET",  url : "items", defaultPreloader : false })
 
