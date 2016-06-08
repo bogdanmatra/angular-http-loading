@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-    angular.module('gcrs-ui.angularHttpLoading')
+    angular.module('angularHttpLoading')
         .factory('LoadingInterceptor', [ '$rootScope', '$q', function ($rootScope, $q) {
  
             var requestsInProgress = 0;
