@@ -12,7 +12,6 @@
  
             var setPreloader = function (active) {
                 if (requestsInProgress === 0) {
-                    // $rootScope variable for showing/hiding loader
                     $rootScope.httpCallInProgress = active;
                 }
             };
