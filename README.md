@@ -1,7 +1,7 @@
 # angular-http-loading
 Angular interceptor for all HTTP calls in order to show a loading icon/animation.
 
-As many calls as you may have in parallel, the loader will stick to the screen and disappear when they finished.
+As many calls as you may have in parallel, the loader will stick to the screen and disappear when they are finished.
 
 
 * How to use:
