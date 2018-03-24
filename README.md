@@ -13,6 +13,7 @@ As many calls as you may have in parallel, the loader will stick to the screen a
   `var yourApp = angular.module("yourApp", [ "angularHttpLoading" ]);`
 
 3. Define a template anywhere in the project (it needs to have access to the $rootScope):
+
   `<div ng-show="angularHttpLoading">`
     `Your loader template!`
   `</div>`
